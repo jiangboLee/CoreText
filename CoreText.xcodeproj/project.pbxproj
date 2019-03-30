@@ -13,6 +13,7 @@
 		9BD5BBD6224E0D1500F824AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BD5BBD5224E0D1500F824AF /* Assets.xcassets */; };
 		9BD5BBD9224E0D1500F824AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BD5BBD7224E0D1500F824AF /* LaunchScreen.storyboard */; };
 		9BD5BBDC224E0D1500F824AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5BBDB224E0D1500F824AF /* main.m */; };
+		9BD5BBE4224E0D9800F824AF /* CoreTextSimple.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD5BBE3224E0D9800F824AF /* CoreTextSimple.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		9BD5BBD8224E0D1500F824AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BD5BBDA224E0D1500F824AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BD5BBDB224E0D1500F824AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BD5BBE2224E0D9800F824AF /* CoreTextSimple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextSimple.h; sourceTree = "<group>"; };
+		9BD5BBE3224E0D9800F824AF /* CoreTextSimple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreTextSimple.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				9BD5BBCD224E0D1200F824AF /* AppDelegate.m */,
 				9BD5BBCF224E0D1200F824AF /* ViewController.h */,
 				9BD5BBD0224E0D1200F824AF /* ViewController.m */,
+				9BD5BBE2224E0D9800F824AF /* CoreTextSimple.h */,
+				9BD5BBE3224E0D9800F824AF /* CoreTextSimple.m */,
 				9BD5BBD2224E0D1200F824AF /* Main.storyboard */,
 				9BD5BBD5224E0D1500F824AF /* Assets.xcassets */,
 				9BD5BBD7224E0D1500F824AF /* LaunchScreen.storyboard */,
@@ -144,6 +149,7 @@
 				9BD5BBD1224E0D1200F824AF /* ViewController.m in Sources */,
 				9BD5BBDC224E0D1500F824AF /* main.m in Sources */,
 				9BD5BBCE224E0D1200F824AF /* AppDelegate.m in Sources */,
+				9BD5BBE4224E0D9800F824AF /* CoreTextSimple.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GGP5472W8N;
+				DEVELOPMENT_TEAM = 83SLLMU85B;
 				INFOPLIST_FILE = CoreText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GGP5472W8N;
+				DEVELOPMENT_TEAM = 83SLLMU85B;
 				INFOPLIST_FILE = CoreText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

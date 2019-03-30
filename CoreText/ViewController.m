@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CoreTextSimple.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CoreTextSimple *coreTextSimple = [[CoreTextSimple alloc] initWithFrame:CGRectMake(20, 200, 300, 500)];
+    coreTextSimple.backgroundColor = [UIColor grayColor];
+    [self.view addSubview:coreTextSimple];
+    
 }
 
 
